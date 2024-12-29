@@ -1,3 +1,5 @@
+alert("you have been logged out from instagram")
+alert("please login")
 document.getElementById('loginForm').addEventListener('submit', function (e) {
       e.preventDefault();
       alert('login successful!');
